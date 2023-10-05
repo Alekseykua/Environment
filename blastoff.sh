@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-#title         :blastoff.sh
-#description   :This script will install and configure the environment
-#author        :Aleksey
-#date          :2023-09-05
-#version       :0.2
-#usage         :bash <(curl --silent --location "https://github.com/Alekseykua/Environment/blob/main/its.sh?raw=true")
-#bash_version  :3.2.57(1)-release     < Not sure
-#special thanks: Basing this on ghaiklor & codeinthehole scripts TY!
+#title          :blastoff.sh
+#description    :This script will install and configure the environment
+#author         :Aleksey
+#date           :2023-09-05
+#version        :0.2
+#usage          :bash <(curl --silent --location "https://github.com/Alekseykua/Environment/blob/main/its.sh?raw=true")
+#bash_version   :3.2.57(1)-release     < Not sure
+#special thanks :Basing this on ghaiklor & codeinthehole scripts TY!
 #===================================================================================
 
 #set -ueo pipefail
