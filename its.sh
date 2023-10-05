@@ -45,7 +45,7 @@ function install_command_line_tools() {
 function install_homebrew() {
 if ! command -v brew &>/dev/null; then
   print "Installing Homebrew, an OSX package manager, follow the instructions..." 
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   if ! grep -qs "recommended by brew doctor" ~/.zshrc; then
     print "Put Homebrew location earlier in PATH ..."
       printf '\n# recommended by brew doctor\n' >> ~/.zshrc
