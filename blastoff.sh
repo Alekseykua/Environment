@@ -2,11 +2,11 @@
 #title         :blastoff.sh
 #description   :This script will install and configure the environment
 #author        :Aleksey
-#date          :2022-04-16
-#version       :0.1
-#usage         :bash <(curl --silent --location "https://github.com/ghaiklor/iterm-fish-fisher-osx/blob/master/install.sh?raw=true") < Replace
+#date          :2023-09-05
+#version       :0.2
+#usage         :bash <(curl --silent --location "https://github.com/Alekseykua/Environment/blob/main/its.sh?raw=true")
 #bash_version  :3.2.57(1)-release     < Not sure
-#special thanks: Basing this on ghaiklor & codeinthehole TY!
+#special thanks: Basing this on ghaiklor & codeinthehole scripts TY!
 #===================================================================================
 
 #set -ueo pipefail
@@ -24,7 +24,7 @@ function print_banner() {
   print "$INFO_LEVEL" "   |___ | [__  |__| [__  |__| |___ |    |      "
   print "$INFO_LEVEL" "   |    | ___] |  | ___] |  | |___ |___ |___   "
   print "$INFO_LEVEL" "                                               "
-  print "$INFO_LEVEL" "        Command Line Tools + Homebrew          "
+  print "$INFO_LEVEL" "        Command Line Tools + Homebrew + Tools  "
   print "$INFO_LEVEL" "                 by @aleksey                   "
   print "$INFO_LEVEL" "                                               "
 }
